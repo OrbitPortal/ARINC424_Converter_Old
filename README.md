@@ -8,10 +8,10 @@ With this script, you can input any ARINC424 format master file, convert every l
 ## Plugins currently supported:
 
 + FSLabs ( \*.rom )   
-    *Availability: D/DB/EA/EP/ER/PA/PC/PD/PE/PF/PG/PI/PN/TC (Fully functional)*
+    *Availability: AS/D/DB/EA/EP/ER/PA/PC/PD/PE/PF/PG/PI/PN/TC (Fully functional)*
 
 + Jeehell (addtional.txt)  
-    *Availability: D/DB/EA/EP/PA/PC/PD/PE/PF/PG/PN (Currently no plan for ER)*
+    *Availability: AS/D/DB/EA/EP/PA/PC/PD/PE/PF/PG/PN (Currently no plan for ER)*
 
 + Majectic (nd.db3)  
     *Availability: D/DB/EA/PA/PC/PG (Currently no plan for ER and PD/PE/PF)*
@@ -23,7 +23,7 @@ With this script, you can input any ARINC424 format master file, convert every l
     - [FAACIFP18][FAACIFP] might work, but with no guarantee.
 
 ## Limitations:
-+ Jeehell's ER, MJC's ER/PD/PE/PF needs data outside of tailored dataset (for fixes' id or coordinates), it will not avail when using add_tailored mode.
++ Jeehell's ER, MJC's ER/PD/PE/PF needs reload data after other data write into data file (for fixes' id or coordinates), so currently no plan for them.
 
 [FAACIFP]: https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/cifp/download/
 [Navigraph]: https://www.navigraph.com/FmsData.aspx
