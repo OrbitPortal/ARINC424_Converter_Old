@@ -14,7 +14,7 @@ With this script, you can input any ARINC424 format master file, convert every l
     *Availability: AS/D/DB/EA/EP/ER/PA/PC/PD/PE/PF/PG/PN (ER requires Baseline or navrecord.dat from Navigraph/NDP)*
 
 + Majectic (nd.db3)  
-    *Availability: D/DB/EA/ER/PA/PC/PG (ER requires Baseline or nd.db3 from Navigraph/NDP )*
+    *Availability: D/DB/EA/ER/PA/PC/PD/PE/PF/PG (ER/PD/PE/PF requires Baseline or nd.db3 from Navigraph/NDP )*
 
 ## Pre-requirement:
 + A dataset that comply with ARINC424 format. (version 18 is recommended)
