@@ -11,10 +11,14 @@ With this script, you can input any ARINC424 format master file, convert every l
     *Availability: AS/D/DB/EA/EP/ER/PA/PC/PD/PE/PF/PG/PI/PN/TC (Fully functional)*
 
 + Jeehell (addtional.txt)  
-    *Availability: AS/D/DB/EA/EP/ER/PA/PC/PD/PE/PF/PG/PN (ER requires Baseline or navrecord.dat from Navigraph/NDP)*
+    *Availability: AS/D/DB/EA/EP/ER/PA/PC/PD/PE/PF/PG/PI/PM/PN/PT (ER requires Baseline or navrecord.dat from Navigraph/NDP)*
 
 + Majectic (nd.db3)  
-    *Availability: D/DB/EA/ER/PA/PC/PD/PE/PF/PG (ER/PD/PE/PF requires Baseline or nd.db3 from Navigraph/NDP )*
+    *Availability: D/DB/EA/ER/PA/PC/PD/PE/PF/PG/PI (ER/PD/PE/PF/PI requires Baseline or nd.db3 from Navigraph/NDP)*
+
++ Aerosoft (Various Files)  
+    *Availability: D/PA/PG (May requires Baseline or NDB from Navigraph/NDP)*
+
 
 ## Pre-requirement:
 + A dataset that comply with ARINC424 format. (version 18 is recommended)
@@ -25,6 +29,8 @@ With this script, you can input any ARINC424 format master file, convert every l
 ## Limitations:
 + Jeehell's ER needs a Baseline dataset/FS NavData to process (for fixes' coordinates).
 + MJC's ER/PD/PE/PF needs a Baseline dataset/FS NavData to process (for fixes' id or coordinates).
++ Aerosoft may requires Baseline dataset/FS NavData to process (for fixes' coordinates).
+
 
 [FAACIFP]: https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/cifp/download/
 [Navigraph]: https://www.navigraph.com/FmsData.aspx
