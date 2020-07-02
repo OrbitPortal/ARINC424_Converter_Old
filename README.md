@@ -17,7 +17,7 @@ With this script, you can input any ARINC424 format master file, convert every l
     *Availability: D/DB/EA/ER/PA/PC/PD/PE/PF/PG/PI (Fully functional)*
 
 + Aerosoft (Various Files)  
-    *Availability: D/PA/PG (May requires Baseline or NDB from Navigraph/NDP)*
+    *Availability: D/DB/EA/PA/PC/PG/PN (May requires Baseline or NDB from Navigraph/NDP)*
 
 
 ## Pre-requirement:
