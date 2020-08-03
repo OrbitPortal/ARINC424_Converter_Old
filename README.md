@@ -8,22 +8,22 @@ With this script, you can input any ARINC424 format master file, convert every l
 ## Plugins currently supported:
 
 + FSLabs ( \*.rom )   
-    *Availability: AS/D/DB/EA/EP/ER/PA/PC/PD/PE/PF/PG/PI/PN/TC (Fully functional)*
+    *Availability: AS/D/DB/EA/EP/ER/PA/PC/PD/PE/PF/PG/PI/PN/TC (Functional)*
 
 + Jeehell (addtional.txt)  
-    *Availability: AS/D/DB/EA/EP/ER/PA/PC/PD/PE/PF/PG/PI/PM/PN/PT (ER requires Baseline or navrecord.dat from Navigraph/NDP)*
+    *Availability: AS/D/DB/EA/EP/ER/PA/PC/PD/PE/PF/PG/PI/PM/PN/PT (Functional)*
 
 + Majectic (nd.db3)  
-    *Availability: D/DB/EA/ER/PA/PC/PD/PE/PF/PG/PI (Fully functional)*
+    *Availability: D/DB/EA/ER/PA/PC/PD/PE/PF/PG/PI (Functional)*
 
 + ProSim (nd.db3)  
-    *Availability: D/DB/EA/ER/PA/PC/PD/PE/PF/PG/PI (w/o PM(Marker))*
+    *Availability: D/DB/EA/ER/PA/PC/PD/PE/PF/PG/PI (Functional w/o PM-Marker)*
 
 + TFDi (navigationdata.mdb)  
-    *Availability: D/DB/EA/ER/PA/PC/PD/PE/PF/PG/PI (Fully functional)*
+    *Availability: D/DB/EA/ER/PA/PC/PD/PE/PF/PG/PI (Functional)*
 
 + Aerosoft (Various Files)  
-    *Availability: D/DB/EA/PA/PC/PG/PN (May requires Baseline or NDB from Navigraph/NDP)*
+    *Availability: D/DB/EA/PA/PC/PD/PE/PF/PG/PN (Functional)*
 
 
 ## Pre-requirement:
@@ -37,7 +37,7 @@ With this script, you can input any ARINC424 format master file, convert every l
 + MJC's ER/PD/PE/PF needs a Baseline dataset/FS NavData to process (for fixes' id or coordinates).
 + ProSim's ER/PD/PE/PF needs a Baseline dataset/FS NavData to process (for fixes' id or coordinates).
 + TFDi's ER/PD/PE/PF needs a Baseline dataset/FS NavData to process (for fixes' id or coordinates).
-+ Aerosoft may requires Baseline dataset/FS NavData to process (for fixes' coordinates).
++ Aerosoft's ER/PD/PE/PF needs a Baseline dataset/FS NavData to process (for fixes' coordinates).
 
 
 [FAACIFP]: https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/cifp/download/
